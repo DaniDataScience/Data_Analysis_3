@@ -17,7 +17,7 @@ library(caret)
 
 
 ## Accessing the data
-data_all <- read_csv("https://raw.githubusercontent.com/DaniDataScience/Data_Analysis_2_repo/main/Assignment_1/morg-2014-emp.csv")
+data_all <-  read_csv( 'https://osf.io/4ay9x/download' ) 
 
 # Selecting observations
 data <- data_all %>% filter(occ2012==710)                # selecting Computer and Information System management
